@@ -31,6 +31,6 @@ Instructions for SecureUXTheme:
 5. Hit patch and apply
 6. **And, voila! You are done!**
 
-## 🎨 Applying custom themes
+## 🎨 Applying custom themes <a name="applying-custom-themes"></a>
 In order to apply custom themes you'll need to extract them and copy both the ```.theme``` files and the folder which has the name of the theme to ```C:\Windows\Resources\Themes```. If you are using UltraUXThemePatcher then you'll just need to go to Settings > Personalization > Themes and apply the theme.
 If you are using SecureUXTheme, just follow continue with the guide above.
