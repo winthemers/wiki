@@ -28,7 +28,7 @@ Instructions for SecureUXTheme:
 2. Reboot your PC
 3. Follow the guide below for applying the theme.
 4. Open up the exe and find the theme you downloaded in the list of themes.
-5. Hit patch and apply
+5. Hit patch then apply
 6. **And, voila! You are done!**
 
 ## 🎨 Applying custom themes <a name="applying-custom-themes"></a>
