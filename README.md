@@ -14,7 +14,7 @@ Well, welcome to windows ricing. Here you can find guides, programs, rainmeter s
 DeviantArt is the primary platform for windows themes and the one which has the most themes.
 ⚠️ **WARNING**: Websites other than DE are probably fake (resell paid themes) so just keep an eye for those types of websites.
 
-## 🔧 Patching your System
+## 🔧 Patching your System <a name="patching-your-system"></a>
 In order to apply third-party windows themes you need to patch your system. For this we recommend either:
 [UltraUXThemePatcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en)
 or
