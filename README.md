@@ -4,12 +4,12 @@ You think how those linux rices on r/unixporn are so beautiful, but you cant hav
 
 Well, welcome to windows ricing. Here you can find guides, programs, rainmeter skins, scripts, xoblite configs and everything you need to get started on your windows ricing journey.
 
-- [Table of Contents](#table-of-contents)
-  - [Where to get Windows Themes](#where-to-get-windows-themes)
+- Table of Contents
+  - [Where to get Windows Themes](#where-to-get-themes)
   - [Patching your System](#patching-your-system)
   - [Applying custom themes](#applying-custom-themes)
 
-## ❓ Where to get Windows Themes
+## ❓ Where to get Windows Themes <a name="where-to-get-themes"></a>
 [DeviantArt](https://deviantart.com/) 
 DeviantArt is the primary platform for windows themes and the one which has the most themes.
 ⚠️ **WARNING**: Websites other than DE are probably fake (resell paid themes) so just keep an eye for those types of websites.
