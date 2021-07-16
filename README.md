@@ -4,7 +4,7 @@ You think how those linux rices on r/unixporn are so beautiful, but you cant hav
 
 Well, welcome to windows ricing. Here you can find guides, programs, rainmeter skins, scripts, xoblite configs and everything you need to get started on your windows ricing journey.
 
-- Table of Contents
+- [Table of Contents](#table-of-contents) <a name="table-of-contents"></a>
   - [Where to get Windows Themes](#where-to-get-themes)
   - [Patching your System](#patching-your-system)
   - [Applying custom themes](#applying-custom-themes)
