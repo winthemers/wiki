@@ -6,7 +6,7 @@ Well, welcome to windows ricing. Here you can find guides, programs, rainmeter s
 
 - [Table of Contents](#table-of-contents)
   - [Where to get Windows Themes](#where-to-get-windows-themes)
-  - [Patching your system](#patching-your-system)
+  - [Patching your System](#atching-your-system)
   - [Applying custom themes](#applying-custom-themes)
 
 ## ❓ Where to get Windows Themes
