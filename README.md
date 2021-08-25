@@ -46,7 +46,7 @@ Read the handy-dandy FAQ we made!
 **My theme doesn't apply!**
   **This is a very common problem**, you probably forgot to put the **theme folder** in the themes directory
 Below is an image representing how the files and folders should be placed:
-[![File and Folder Placement](https://raw.githubusercontent.com/winthemers/windows-ricing/main/file-folder-placement.png)]
+![File and Folder Placement](https://raw.githubusercontent.com/winthemers/windows-ricing/main/file-folder-placement.png)
 
 **Will themes reduce my performance?**
 **No!** Every single theme is just a reskin of the original windows theme.
