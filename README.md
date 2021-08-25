@@ -8,6 +8,8 @@ Well, welcome to windows ricing. Here you can find guides, programs, rainmeter s
   - [Where to get Windows Themes](#where-to-get-themes)
   - [Patching your System](#patching-your-system)
   - [Applying custom themes](#applying-custom-themes)
+  - [OldNewExplorer](#old-new-explorer)
+  - [FAQ](#faq)
 
 ## ❓ Where to get Windows Themes <a name="where-to-get-themes"></a>
 [DeviantArt](https://deviantart.com/) 
