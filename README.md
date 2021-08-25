@@ -35,16 +35,30 @@ Instructions for SecureUXTheme:
 In order to apply custom themes you'll need to extract them and copy both the ```.theme``` files and the folder which has the name of the theme to ```C:\Windows\Resources\Themes```. If you are using UltraUXThemePatcher then you'll just need to go to Settings > Personalization > Themes and apply the theme.
 If you are using SecureUXTheme, just follow continue with the guide above.
 
-## Removing ribbon menu from Explorer
+## 🎀 Removing ribbon menu from Explorer <a name="old-new-explorer"></a>
 For this, you will have to use a program called [OldNewExplorer](https://tihiy.net/files/OldNewExplorer.rar)
 Extract it, and open the exe.
 Select the "Use command bar" box and **unselect the last two boxes**.
 
-## 🚧 Something doesn't work? You are confused, having problems?
+## 🚧 Something doesn't work? You are confused, having problems? <a name="faq"></a>
 Read the handy-dandy FAQ we made!
 
 **Will themes reduce my performance?**
 **No!** Every single theme is just a reskin of the original windows theme.
 
 **How to make my own themes?**
-Themes are made by editing the original windows msstyle, you can make a copy of it from your "C:\Windows\Resources\Themes" folder and use a style builder tool like [Windows Style Builder](https://www.vistastylebuilder.com/) in order to change the look and properties of the theme.
+  Themes are made by editing the original windows msstyle, you can make a copy of it from your "C:\Windows\Resources\Themes" folder and use a style builder tool like [Windows Style Builder](https://www.vistastylebuilder.com/) in order to change the look and properties of the theme.
+
+**I used OldNewExplorer, but now there's a menu that doesn't go away!**
+  Press **Ctrl+Shift+M** to remove this menu, make sure you have the **window focused** before pressing the keys.
+
+**I saw screenshots where people had tabs on their explorer, how?**
+  You can do this using a shell extension called **QTTabbar**, which can be downloaded [here](http://qttabbar.wikidot.com/)
+ QTTabbar includes other tricks like left navigation panel without folder names, we should have a decent QTTabbar guide written pretty soon.
+ 
+ **I am trying to change my QTTabbar toolbar color but there is a black box arround it**
+  QTTabbar has a bug where it will only be able to recolor toolbar properly on white variant themes, if your theme applies darkmode by default, these black bars will not come off, sorry.
+  
+**There is a floating taskbar on the preview of the theme while mine is not**
+For this you would need StartIsBack, which can be downloaded here **(Keep in mind it is PAID SOFTWARE)**
+  Follow your theme instructions in order to apply it's theme to SIB.  
