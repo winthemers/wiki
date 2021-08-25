@@ -34,3 +34,17 @@ Instructions for SecureUXTheme:
 ## 🎨 Applying custom themes <a name="applying-custom-themes"></a>
 In order to apply custom themes you'll need to extract them and copy both the ```.theme``` files and the folder which has the name of the theme to ```C:\Windows\Resources\Themes```. If you are using UltraUXThemePatcher then you'll just need to go to Settings > Personalization > Themes and apply the theme.
 If you are using SecureUXTheme, just follow continue with the guide above.
+
+## Removing ribbon menu from Explorer
+For this, you will have to use a program called [OldNewExplorer](https://tihiy.net/files/OldNewExplorer.rar)
+Extract it, and open the exe.
+Select the "Use command bar" box and **unselect the last two boxes**.
+
+## 🚧 Something doesn't work? You are confused, having problems?
+Read the handy-dandy FAQ we made!
+
+**Will themes reduce my performance?**
+**No!** Every single theme is just a reskin of the original windows theme.
+
+**How to make my own themes?**
+Themes are made by editing the original windows msstyle, you can make a copy of it from your "C:\Windows\Resources\Themes" folder and use a style builder tool like [Windows Style Builder](https://www.vistastylebuilder.com/) in order to change the look and properties of the theme.
