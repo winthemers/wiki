@@ -13,8 +13,7 @@ Well, welcome to windows ricing. Here you can find guides, programs, rainmeter s
   - [Contributing](#contributing)
 
 ## ❓ Where to get Windows Themes <a name="where-to-get-themes"></a>
-[DeviantArt](https://deviantart.com/) 
-DeviantArt is the primary platform for windows themes and the one which has the most themes.
+[DeviantArt](https://deviantart.com/) is the primary platform for windows themes.
 ⚠️ **WARNING**: Websites other than DE are probably fake (resell paid themes) so just keep an eye for those types of websites.
 
 ## 🔧 Patching your System <a name="patching-your-system"></a>
