@@ -1,6 +1,6 @@
 # 🖌️ Windows Ricing
 
-You think how those linux rices on r/unixporn are so beautiful, but you cant have them on windows.. 
+You are thinking about those linux rices on r/unixporn and you want them on widnows, but you cant have them.. 
 
 Well, welcome to windows ricing. Here you can find guides, programs, rainmeter skins, scripts, xoblite configs and everything you need to get started on your windows ricing journey.
 
@@ -43,6 +43,11 @@ Select the "Use command bar" box and **unselect the last two boxes**.
 ## 🚧 Something doesn't work? You are confused, having problems? <a name="faq"></a>
 Read the handy-dandy FAQ we made!
 
+**My theme doesn't apply!**
+  **This is a very common problem**, you probably forgot to put the **theme folder** in the themes directory
+Below is an image representing how the files and folders should be placed:
+[![File and Folder Placement](https://raw.githubusercontent.com/winthemers/windows-ricing/main/file-folder-placement.png)]
+
 **Will themes reduce my performance?**
 **No!** Every single theme is just a reskin of the original windows theme.
 
@@ -56,9 +61,13 @@ Read the handy-dandy FAQ we made!
   You can do this using a shell extension called **QTTabbar**, which can be downloaded [here](http://qttabbar.wikidot.com/)
  QTTabbar includes other tricks like left navigation panel without folder names, we should have a decent QTTabbar guide written pretty soon.
  
- **I am trying to change my QTTabbar toolbar color but there is a black box arround it**
+ **I am trying to change my QTTabbar toolbar color but there is a black box around it**
   QTTabbar has a bug where it will only be able to recolor toolbar properly on white variant themes, if your theme applies darkmode by default, these black bars will not come off, sorry.
   
 **There is a floating taskbar on the preview of the theme while mine is not**
-For this you would need StartIsBack, which can be downloaded here **(Keep in mind it is PAID SOFTWARE)**
-  Follow your theme instructions in order to apply it's theme to SIB.  
+  For this you would need StartIsBack, which can be downloaded [here](https://www.startisback.com/) **(Keep in mind it is PAID SOFTWARE, it costs 4$)**
+After insallation follow your theme instructions in order to apply it's theme to SIB.  
+
+**How do I achieve blank titles on my window titlebar?**
+  Use [WinAeroTweaker](https://winaerotweaker.com/) to change titlebar font to blank
+You can download the blank font [here](https://cdn.discordapp.com/attachments/763855843476766740/847301543429799956/BLANK.TTF)
