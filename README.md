@@ -10,6 +10,7 @@ Well, welcome to windows ricing. Here you can find guides, programs, rainmeter s
   - [Applying custom themes](#applying-custom-themes)
   - [OldNewExplorer](#old-new-explorer)
   - [FAQ](#faq)
+  - [Contributing](#contributing)
 
 ## ❓ Where to get Windows Themes <a name="where-to-get-themes"></a>
 [DeviantArt](https://deviantart.com/) 
@@ -42,7 +43,7 @@ For this, you will have to use a program called [OldNewExplorer](https://tihiy.n
 Extract it, and open the exe.
 Select the "Use command bar" box and **unselect the last two boxes**.
 
-## 🚧 Something doesn't work? You are confused, having problems? <a name="faq"></a>
+## 🚧 Something doesn't work? Are you confused? <a name="faq"></a>
 Read the handy-dandy FAQ we made!
 
 **My theme doesn't apply!**
@@ -76,3 +77,6 @@ After insallation follow your theme instructions in order to apply it's theme to
 **How do I achieve blank titles on my window titlebar?**
   Use [WinAeroTweaker](https://winaerotweaker.com/) to change titlebar font to blank
 You can download the blank font [here](https://cdn.discordapp.com/attachments/763855843476766740/847301543429799956/BLANK.TTF)
+
+## ✨ Contributing <a name="contributing"></a>
+We'd love if you could contribute to this project with a few fixes or additions :)
