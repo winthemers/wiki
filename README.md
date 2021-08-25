@@ -58,6 +58,9 @@ Below is an image representing how the files and folders should be placed:
 
 **I used OldNewExplorer, but now there's a menu that doesn't go away!**
   Press **Ctrl+Shift+M** to remove this menu, make sure you have the **window focused** before pressing the keys.
+  
+**Theres another bar at the bottom when using OldNewExplorer!**
+  Press **Alt+Shift+P** while having the **window focused**.
 
 **I saw screenshots where people had tabs on their explorer, how?**
   You can do this using a shell extension called **QTTabbar**, which can be downloaded [here](http://qttabbar.wikidot.com/)
