@@ -71,7 +71,7 @@ Below is an image representing how the files and folders should be placed:
   
 **There is a floating taskbar on the preview of the theme while mine is not**
   For this you would need StartIsBack, which can be downloaded [here](https://www.startisback.com/) **(Keep in mind it is PAID SOFTWARE, it costs 4$)**
-After insallation follow your theme instructions in order to apply it's theme to SIB.  
+After installation follow your theme's instructions in order to apply it's theme to SIB.  
 
 **How do I achieve blank titles on my window titlebar?**
   Use [WinAeroTweaker](https://winaerotweaker.com/) to change titlebar font to blank
