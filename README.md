@@ -1,8 +1,8 @@
 # 🖌️ Windows Ricing
 
-You are thinking about those linux rices on r/unixporn and you want them on widnows, but you cant have them.. 
+You are thinking about those Linux rices on r/unixporn and you want them on Windows, but you can't have them...
 
-Well, welcome to windows ricing. Here you can find guides, programs, rainmeter skins, scripts, xoblite configs and everything you need to get started on your windows ricing journey.
+Well, welcome to Windows ricing. Here you can find guides, programs, Rainmeter skins, scripts, xoblite configs and everything you need to get started on your Windows ricing journey.
 
 - [Table of Contents](#table-of-contents) <a name="table-of-contents"></a>
   - [Where to get Windows Themes](#where-to-get-themes)
@@ -12,12 +12,12 @@ Well, welcome to windows ricing. Here you can find guides, programs, rainmeter s
   - [FAQ](#faq)
   - [Contributing](#contributing)
 
-## ❓ Where to get Windows Themes <a name="where-to-get-themes"></a>
+## ❓ Where to get Windows themes <a name="where-to-get-themes"></a>
 [DeviantArt](https://deviantart.com/) is the primary platform for windows themes.
 ⚠️ **WARNING**: Websites other than DE are probably fake (resell paid themes) so just keep an eye for those types of websites.
 
-## 🔧 Patching your System <a name="patching-your-system"></a>
-In order to apply third-party windows themes you need to patch your system. For this we recommend either:
+## 🔧 Patching your system <a name="patching-your-system"></a>
+In order to apply third-party Windows themes you need to patch your system. For this we recommend either:
 [UltraUXThemePatcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en)
 or
 [SecureUXTheme](https://github.com/namazso/SecureUxTheme)
@@ -48,10 +48,11 @@ Read the handy-dandy FAQ we made!
 **My theme doesn't apply!**
   **This is a very common problem**, you probably forgot to put the **theme folder** in the themes directory
 Below is an image representing how the files and folders should be placed:
+
 ![File and Folder Placement](https://raw.githubusercontent.com/winthemers/windows-ricing/main/file-folder-placement.png)
 
 **Will themes reduce my performance?**
-**No!** Every single theme is just a reskin of the original windows theme.
+**No!** Every single theme is just a reskin of the original Windows theme.
 
 **How to make my own themes?**
   Themes are made by editing the original windows msstyle, you can make a copy of it from your "C:\Windows\Resources\Themes" folder and use a style builder tool like [Windows Style Builder](https://www.vistastylebuilder.com/) **(Keep in mind this is PAID SOFTWARE, it costs $30)**, or a free alternative like [msstyleEditor](https://github.com/nptr/msstyleEditor) in order to change the look and properties of the theme.
@@ -59,10 +60,10 @@ Below is an image representing how the files and folders should be placed:
 **I used OldNewExplorer, but now there's a menu that doesn't go away!**
   Press **Ctrl+Shift+M** to remove this menu, make sure you have the **window focused** before pressing the keys.
   
-**Theres another bar at the bottom when using OldNewExplorer!**
+**There's another bar at the bottom when using OldNewExplorer!**
   Press **Alt+Shift+P** while having the **window focused**.
 
-**I saw screenshots where people had tabs on their explorer, how?**
+**I saw screenshots where people had tabs on their Explorer, how?**
   You can do this using a shell extension called **QTTabbar**, which can be downloaded [here](http://qttabbar.wikidot.com/)
  QTTabbar includes other tricks like left navigation panel without folder names, we should have a decent QTTabbar guide written pretty soon.
  
@@ -73,9 +74,9 @@ Below is an image representing how the files and folders should be placed:
   For this you would need StartIsBack, which can be downloaded [here](https://www.startisback.com/) **(Keep in mind it is PAID SOFTWARE, it costs 4$)**
 After installation follow your theme's instructions in order to apply it's theme to SIB.  
 
-**How do I achieve blank titles on my window titlebar?**
+**How do I achieve blank titles on my window title-bar?**
   Use [WinAeroTweaker](https://winaerotweaker.com/) to change titlebar font to blank
-You can download the blank font [here](https://cdn.discordapp.com/attachments/763855843476766740/847301543429799956/BLANK.TTF)
+You can download the blank font [here!](https://cdn.discordapp.com/attachments/763855843476766740/847301543429799956/BLANK.TTF)
 
 ## ✨ Contributing <a name="contributing"></a>
-We'd love if you could contribute to this project with a few fixes or additions :)
+We'd love if you could contribute to this project with a few fixes or additions! :D
