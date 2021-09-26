@@ -1,6 +1,6 @@
 # 🖌️ Windows Ricing
 
-You are thinking about those Linux rices on r/unixporn and you want them on Windows, but you can't have them...
+Are you thinking about those Linux rices on r/unixporn and you want them on Windows, but you can't have them...
 
 Well, welcome to Windows ricing. Here you can find guides, programs, Rainmeter skins, scripts, xoblite configs and everything you need to get started on your Windows ricing journey.
 
