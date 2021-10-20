@@ -54,7 +54,7 @@ Below is an image representing how the files and folders should be placed:
 **Will themes reduce my performance?**
 **No!** Every single theme is just a reskin of the original Windows theme.
 
-**How to make my own themes?**
+**How do I make my own themes?**
   Themes are made by editing the original windows msstyle, you can make a copy of it from your "C:\Windows\Resources\Themes" folder and use a style builder tool like [Windows Style Builder](https://www.vistastylebuilder.com/) **(Keep in mind this is PAID SOFTWARE, it costs $30)**, or a free alternative like [msstyleEditor](https://github.com/nptr/msstyleEditor) in order to change the look and properties of the theme.
 
 **I used OldNewExplorer, but now there's a menu that doesn't go away!**
