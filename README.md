@@ -71,7 +71,7 @@ Below is an image representing how the files and folders should be placed:
   QTTabbar has a bug where it will only be able to recolor toolbar properly on white variant themes, if your theme applies darkmode by default, these black bars will not come off, sorry.
   
 **There is a floating taskbar on the preview of the theme while mine is not**
-  For this you would need StartIsBack, which can be downloaded [here](https://www.startisback.com/) **(Keep in mind it is PAID SOFTWARE, it costs 4$)**
+  For this you would need StartIsBack (StartAllBack for Windows 11), which can be downloaded [here](https://www.startisback.com/) or [here](https://www.startallback.com/) (for Windows 11) **(Keep in mind the software is paid, both of them costing 5$)**
 After installation follow your theme's instructions in order to apply it's theme to SIB.  
 
 **How do I achieve blank titles on my window title-bar?**
