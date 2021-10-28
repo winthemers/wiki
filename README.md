@@ -41,10 +41,10 @@ In order to apply custom themes you'll need to extract them and copy both the ``
 If you are using SecureUXTheme, just continue with the guide above.
 
 ## 🇦 Changing default system font <a name="changing-default-system-font"></a>
-By default, explorer uses the Segoe UI font. To change it, Segoe UI needs to be disabled in the registry, and a fallback font needs to be set, which will be used instead.
+By default, Windows uses the Segoe UI font. To change it, Segoe UI needs to be disabled in the registry, and a fallback font needs to be set, which will be used instead.
 Use the following steps:
 1. Create a backup of your current ```[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]``` and ```[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]```, by selecting the keys (folders) in the registry editor, and calling File -> Export. Name the file something recognizable, such as "WindowFonts-DefaultBackup.reg".
-2. Create a new file for your font setting, call it something like "WindowsFonts-FontName.reg". Make sure the extension is changed to .reg. In the file, paste the following contents, replacing the FontName with the name of the font you wish to use (make sure it's spelled exactly right):
+2. Create a new file for your font setting, call it something like "WindowsFonts-FontName.reg". Make sure the extension is changed to .reg. In the file, paste the following contents, replacing the FontName with the name of the font you wish to use (make sure it's spelled exactly right, for example, ```"Segoe UI"="Arial"```):
   ```
   Windows Registry Editor Version 5.00
 
