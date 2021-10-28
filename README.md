@@ -10,7 +10,7 @@ Well, welcome to Windows ricing. Here you can find guides, programs, Rainmeter s
   - [Where to get Windows Themes](#where-to-get-themes)
   - [Patching your System](#patching-your-system)
   - [Applying custom themes](#applying-custom-themes)
-  - [Changing default system font](#changing-explorer-font)
+  - [Changing default system font](#changing-default-system-font)
   - [Removing ribbon menu from Explorer](#old-new-explorer)
   - [FAQ](#faq)
   - [Contributing](#contributing)
