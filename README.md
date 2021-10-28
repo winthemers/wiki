@@ -4,11 +4,14 @@ Are you thinking about those Linux rices on r/unixporn and you want them on Wind
 
 Well, welcome to Windows ricing. Here you can find guides, programs, Rainmeter skins, scripts, xoblite configs and everything you need to get started on your Windows ricing journey.
 
+⚠️ **WARNING**: As a rule of thumb, before making any kind of change for the first time, create a system restore point.
+
 - [Table of Contents](#table-of-contents) <a name="table-of-contents"></a>
   - [Where to get Windows Themes](#where-to-get-themes)
   - [Patching your System](#patching-your-system)
   - [Applying custom themes](#applying-custom-themes)
-  - [OldNewExplorer](#old-new-explorer)
+  - [Changing default system font](#changing-default-system-font)
+  - [Removing ribbon menu from Explorer](#old-new-explorer)
   - [FAQ](#faq)
   - [Contributing](#contributing)
 
@@ -37,10 +40,40 @@ Instructions for SecureUXTheme:
 In order to apply custom themes you'll need to extract them and copy both the ```.theme``` files and the folder which has the name of the theme to ```C:\Windows\Resources\Themes```. If you are using UltraUXThemePatcher then you'll just need to go to Settings > Personalization > Themes and apply the theme.
 If you are using SecureUXTheme, just continue with the guide above.
 
+## 🇦 Changing default system font <a name="changing-default-system-font"></a>
+By default, Windows uses the Segoe UI font. To change it, Segoe UI needs to be disabled in the registry, and a fallback font needs to be set, which will be used instead.
+Use the following steps:
+1. Create a backup of your current ```[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]``` and ```[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]```, by selecting the keys (folders) in the registry editor, and calling File -> Export. Name the file something recognizable, such as "WindowFonts-DefaultBackup.reg".
+2. Create a new file for your font setting, call it something like "WindowsFonts-FontName.reg". Make sure the extension is changed to .reg. In the file, paste the following contents, replacing the FontName with the name of the font you wish to use (make sure it's spelled exactly right, for example, ```"Segoe UI"="Arial"```):
+  ```
+  Windows Registry Editor Version 5.00
+
+  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]
+  "Segoe UI (TrueType)"=""
+  "Segoe UI Bold (TrueType)"=""
+  "Segoe UI Bold Italic (TrueType)"=""
+  "Segoe UI Italic (TrueType)"=""
+  "Segoe UI Light (TrueType)"=""
+  "Segoe UI Semibold (TrueType)"=""
+  "Segoe UI Symbol (TrueType)"=""
+
+  [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
+
+  "Segoe UI"="FontName"
+  ```
+3. Right-click on the file, and select "Merge", and agree to the prompt that appears.
+4. Restart the computer, and the new font should be applied.
+
+
+
 ## 🎀 Removing ribbon menu from Explorer <a name="old-new-explorer"></a>
 For this, you will have to use a program called [OldNewExplorer](https://tihiy.net/files/OldNewExplorer.rar)
 Extract it, and open the exe.
 Select the "Use command bar" box and **unselect the last two boxes**.
+
+**Note:** In Windows 11, the ribbon menu was replaced by a command bar, displaying buttons for copy, paste etc. To remove it, it needs to be replaced by the ribbon menu first.
+In Windows Terminal (or command prompt), call: ```reg.exe add "HKCU\Software\Classes\CLSID\{d93ed569-3b3e-4bff-8355-3c44f6a52bb5}\InprocServer32" /f /ve``` (alternatively, this registry key can be added manually).
+The ribbon menu should be back, making it possible to remove it with OldNewExplorer as described above.
 
 ## 🚧 Something doesn't work? Are you confused? <a name="faq"></a>
 Read the handy-dandy FAQ we made!
