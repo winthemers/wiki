@@ -23,7 +23,7 @@ Well, welcome to Windows ricing. Here you can find guides, programs, Rainmeter s
 In order to apply third-party Windows themes you need to patch your system. For this we recommend either:
 [UltraUXThemePatcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en)
 or
-[SecureUXTheme](https://github.com/namazso/SecureUxTheme) but SecureUX is preffered because it's the safest one.
+[SecureUXTheme](https://github.com/namazso/SecureUxTheme) but SecureUX is preferred because it's the safest one.
 
 Instructions for UltraUXThemePatcher:
 Download the exe and run thru the installation process and reboot.
