@@ -20,15 +20,11 @@ Well, welcome to Windows ricing. Here you can find guides, programs, Rainmeter s
 ⚠️ **WARNING**: Websites other than DE are probably fake (resell paid themes) so just keep an eye for those types of websites.
 
 ## 🔧 Patching your system <a name="patching-your-system"></a>
-In order to apply third-party Windows themes you need to patch your system. For this we recommend either:
-[UltraUXThemePatcher](https://mhoefs.eu/software_uxtheme.php?ref=syssel&lang=en)
-or
-[SecureUXTheme](https://github.com/namazso/SecureUxTheme) but SecureUX is preffered because it's the safest one.
+In order to apply third-party Windows themes you need to patch your system. For this we recommend:
 
-Instructions for UltraUXThemePatcher:
-Download the exe and run thru the installation process and reboot.
+[SecureUXTheme](https://github.com/namazso/SecureUxTheme) because it's the most reliable and safe.
 
-Instructions for SecureUXTheme:
+How-to for SecureUXTheme:
 1. Download the exe and open it up, select "Hook LogonUI" then hit install.
 2. Reboot your PC
 3. Follow the guide below for applying the theme.
