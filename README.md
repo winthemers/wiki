@@ -31,7 +31,7 @@ In order to apply third-party Windows themes you need to patch your system. For 
 
 How to patch using SecureUXTheme:
 
-1. Download [SecureUXTheme](https://github.com/namazso/SecureUxTheme) and open it (the file might be called `ThemeTool.exe`).
+1. Download [SecureUXTheme](https://github.com/namazso/SecureUxTheme) and open it AS ADMINISTRATOR (the file might be called `ThemeTool.exe`).
 2. Enable `Hook LogonUI` then hit `Install`.
 3. Reboot your PC.
 
@@ -47,7 +47,7 @@ How to apply themes with SecureUXTheme:
 
 1. Make sure you have patched your system (read above).
 2. Install your themes by putting the `.theme` files and the adjacent folders into `C:\Windows\Resources\Themes`.
-3. Open [SecureUXTheme](https://github.com/namazso/SecureUxTheme) (the file might be called `ThemeTool.exe`).
+3. Open [SecureUXTheme](https://github.com/namazso/SecureUxTheme) AS ADMINISTRATOR (the file might be called `ThemeTool.exe`).
 4. Find your theme in the list and select it.
 5. Click `Patch and Apply`.
 6. **And, voila! You are done!**
@@ -109,6 +109,10 @@ Read the handy-dandy FAQ we made!
 Below is an image representing how the files and folders should be placed:
 
 ![File and Folder Placement](https://raw.githubusercontent.com/winthemers/windows-ricing/main/file-folder-placement.png)
+
+### ❓ My theme is broken!
+
+If you patched your system using UltraUX, please try using SecureUX (instructions above) instead. On numerous occasions we had users complain about themes not looking right and it was fixed with SecureUX. If this does not fix your issue then the theme might be old and/or made for another version of Windows.
 
 ### ❓ Will themes reduce my performance?
 
