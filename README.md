@@ -32,10 +32,19 @@ In order to apply third-party Windows themes you need to patch your system. For 
 How to patch using SecureUXTheme:
 
 1. Download [SecureUXTheme](https://github.com/namazso/SecureUxTheme) and open it AS ADMINISTRATOR (the file might be called `ThemeTool.exe`).
-2. Enable `Hook LogonUI` then hit `Install`.
+2. **(optional, read below\*)** Enable `Hook LogonUI` then hit `Install`.
 3. Reboot your PC.
 
 (You only need to do this once, but might need to repeat it after some Windows updates!)
+
+### About Hook LogonUI*
+
+`Hook LogonUI` and `Rename DefaultColors` both aim to fix colors being reset by LogonUI (for example when going into `ctrl+alt+del`) but of course do so in different ways. The tradeoff is simple:
+
+ - `Rename DefaultColors` may cause issues with updates and you might need to repatch more often.
+ - `Hook LogonUI` causes locking your computer to take a few more seconds.
+
+It's up to you what you want to do, but if you just want to patch once and forget about it we suggest you use `Hook LogonUI`.
 
 <br />
 
