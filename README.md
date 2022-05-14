@@ -121,7 +121,7 @@ Below is an image representing how the files and folders should be placed:
 
 ### ❓ My theme is broken!
 
-If you patched your system using UltraUX, please try using SecureUX (instructions above) instead. On numerous occasions we had users complain about themes not looking right and it was fixed with SecureUX. If this does not fix your issue then the theme might be old and/or made for another version of Windows.
+If you patched your system using UltraUX, please try [using SecureUX](#patching-your-system) instead. On numerous occasions we had users complain about themes not looking right and it was fixed with SecureUX. If this does not fix your issue then the theme might be old and/or made for another version of Windows.
 
 ### ❓ Will themes reduce my performance?
 
