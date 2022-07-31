@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/winthemers/winthemers.github.io/main/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Ricing Wiki</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="/">Home</a>
+          <a href="https://github.com/winthemers">Projects</a>
+          <a href="https://discord.gg/8BdXn5ZTSw">Discord</a>
+          <a class="current" href="http://127.0.0.1:5500/wiki">Wiki</a>
+        </nav>
+        <h3>winthemers wiki</h3>
+        <p>is a page dedicated to answering your questions</p>
+    </header>    
+    <main>
+      <ul>
+        <li><a href="#table-of-contents">Table of Contents</a> <a name="table-of-contents"></a></li>
+        <li><a href="#where-to-get-themes">Where to get Windows Themes</a></li>
+        <li><a href="#patching-your-system">Patching your System</a></li>
+        <li><a href="#applying-custom-themes">Applying custom themes</a></li>
+        <li><a href="#changing-default-system-font">Changing default system font</a></li>
+        <li><a href="#old-new-explorer">Removing ribbon menu from Explorer</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contributing">Contributing</a></li>
+        </ul>
+        <p><br /></p>
+        <h3>❓ Where to get Windows themes <a name="where-to-get-themes"></a></h3>
+        <p><a href="https://deviantart.com/">DeviantArt</a> is the primary platform for windows themes.</p>
+        <p>⚠️ <strong>WARNING</strong>: Websites other than DA are probably fake (resell paid themes) so just keep an eye for those types of websites.</p>
+        <p><br /></p>
+        <h3>🔧 Patching your system <a name="patching-your-system"></a></h3>
+        <p>In order to apply third-party Windows themes you need to patch your system. For this we recommend <strong><a href="https://github.com/namazso/SecureUxTheme">SecureUXTheme</a></strong> because it's the <strong>most reliable and safe</strong>. We <strong>DO NOT</strong> recommend UltraUXThemePatcher since nowadays it is quite unreliable and it also doesn't work properly on Windows 11.</p>
+        <p>How to patch using SecureUXTheme:</p>
+        <ol>
+        <li>Download <a href="https://github.com/namazso/SecureUxTheme">SecureUXTheme</a> and open it AS ADMINISTRATOR (the file might be called <code>ThemeTool.exe</code>).</li>
+        <li><strong>(optional, read below*)</strong> Enable <code>Hook LogonUI</code> then hit <code>Install</code>.</li>
+        <li>Reboot your PC.</li>
+        </ol>
+        <p>(You only need to do this once, but might need to repeat it after some Windows updates!)</p>
+        <h4>About Hook LogonUI*</h4>
+        <p><code>Hook LogonUI</code> and <code>Rename DefaultColors</code> both aim to fix colors being reset by LogonUI (for example when going into <code>ctrl+alt+del</code>) but of course do so in different ways. The tradeoff is simple:</p>
+        <ul>
+        <li><code>Rename DefaultColors</code> may cause issues with updates and you might need to repatch more often.</li>
+        <li><code>Hook LogonUI</code> causes locking your computer to take a few more seconds.</li>
+        </ul>
+        <p>It's up to you what you want to do, but if you just want to patch once and forget about it we suggest you use <code>Hook LogonUI</code>.</p>
+        <p><br /></p>
+        <h3>🎨 Applying custom themes <a name="applying-custom-themes"></a></h3>
+        <p>Since we only recommend you use SecureUXTheme for patching your system, this is a guide for applying themes with SecureUXTheme.</p>
+        <p>How to apply themes with SecureUXTheme:</p>
+        <ol>
+        <li>Make sure you have patched your system (read above).</li>
+        <li>Install your themes by putting the <code>.theme</code> files and the adjacent folders into <code>C:\Windows\Resources\Themes</code>.</li>
+        <li>Open <a href="https://github.com/namazso/SecureUxTheme">SecureUXTheme</a> AS ADMINISTRATOR (the file might be called <code>ThemeTool.exe</code>).</li>
+        <li>Find your theme in the list and select it.</li>
+        <li>Click <code>Patch and Apply</code>.</li>
+        <li><strong>And, voila! You are done!</strong></li>
+        </ol>
+        <p>(You need to do this for all the themes you want to apply!)</p>
+        <p><br /></p>
+        <h3>🇦 Changing default system font <a name="changing-default-system-font"></a></h3>
+        <p>By default, Windows uses the Segoe UI font. To change it, Segoe UI needs to be disabled in the registry, and a fallback font needs to be set, which will be used instead.</p>
+        <p>Use the following steps:
+        <ul>
+        <li>1. Create a backup of your current <code>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]</code> and <code>[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]</code>, by selecting the keys (folders) in the registry editor, and calling File -&gt; Export. Name the file something recognizable, such as <code>"WindowFonts-DefaultBackup.reg"</code>.</li>
+        <li>2. Download <a href="windowsfonts-fontname.reg">this file</a>, open it, and replace the FontName with the name of the font you wish to use (make sure it's spelled exactly right, for example, <code>"Segoe UI"="Arial"</code></li></p>
+        <li>3. Right-click on the file, and select "Merge", and agree to the prompt that appears.</li>
+        <li>4. Restart the computer, and the new font should be applied.</li>
+        </ul>
+        <p><br /></p>
+        <h3>🎀 Removing ribbon menu from Explorer <a name="old-new-explorer"></a></h3>
+        <p>For this, you will have to use a program called <a href="https://tihiy.net/files/OldNewExplorer.rar">OldNewExplorer</a></p>
+        <p>Extract it, and open the exe.</p>
+        <p>Select the "Use command bar" box and <strong>unselect the last two boxes</strong>.</p>
+        <p><strong>Note:</strong> In Windows 11, the ribbon menu was replaced by a command bar, displaying buttons for copy, paste etc. To remove it, it needs to be replaced by the ribbon menu first.
+        In Windows Terminal (or command prompt), call: <code>reg.exe add "HKCU\Software\Classes\CLSID\{d93ed569-3b3e-4bff-8355-3c44f6a52bb5}\InprocServer32" /f /ve</code> (alternatively, this registry key can be added manually).
+        The ribbon menu should be back, making it possible to remove it with OldNewExplorer as described above.</p>
+        <p><br /></p>
+        <h3>🚧 Something doesn't work? Are you confused? <a name="faq"></a></h3>
+        <p>Read the handy-dandy FAQ we made!</p>
+        <h3>❓ My theme doesn't apply!</h3>
+        <p><strong>This is a very common problem</strong>, you probably simply forgot to put the <strong>theme folder</strong> in the themes directory!</p>
+        <p>Below is an image representing how the files and folders should be placed:</p>
+        <p><img alt="File and Folder Placement" src="https://raw.githubusercontent.com/winthemers/windows-ricing/main/file-folder-placement.png" /></p>
+        <h3>❓ My theme is broken!</h3>
+        <p>If you patched your system using UltraUX, please try <a href="#patching-your-system">using SecureUX</a> instead. On numerous occasions we had users complain about themes not looking right and it was fixed with SecureUX. If this does not fix your issue then the theme might be old and/or made for another version of Windows.</p>
+        <h3>❓ Will themes reduce my performance?</h3>
+        <p><strong>No!</strong> Every single theme is just a reskin of the original Windows theme.</p>
+        <h3>❓ How do I make my own themes</h3>
+        <p>Themes are made by editing the original Windows <code>.msstyles</code>, you can make a copy of it from your <code>C:\Windows\Resources\Themes</code> folder and use a style builder tool like <a href="https://www.vistastylebuilder.com/">Windows Style Builder</a> <strong>(Keep in mind this is PAID SOFTWARE, it costs $30)</strong>, or a free alternative like <a href="https://github.com/nptr/msstyleEditor">msstyleEditor</a> in order to change the look and properties of the theme.</p>
+        <h3>❓ I used OldNewExplorer, but now there's a menu that doesn't go away!</h3>
+        <p>Press <strong>Ctrl+Shift+M</strong> to remove this menu. Make sure you have the <strong>window focused</strong> before pressing the keys.</p>
+        <h3>❓ There's another bar at the bottom when using OldNewExplorer!</h3>
+        <p>Press <strong>Alt+Shift+P</strong> while having the <strong>window focused</strong>.</p>
+        <h3>❓ I saw screenshots where people had tabs on their Explorer, how?</h3>
+        <p>You can do this using a shell extension called <strong>QTTabbar</strong>, which can be downloaded <a href="http://qttabbar.wikidot.com/">here</a>.</p>
+        <p>QTTabbar includes other tricks like left navigation panel without folder names, we should have a decent QTTabbar guide written pretty soon.</p>
+        <h3>❓ I am trying to change my QTTabbar toolbar color but there is a black box around it...</h3>
+        <p>QTTabbar has a bug where it will only be able to recolor toolbar properly on white variant themes, if your theme applies darkmode by default, these black bars will not come off, sorry.</p>
+        <h3>❓ There is a floating taskbar on the preview of the theme while mine is not...</h3>
+        <p>For this you would need StartIsBack (StartAllBack for Windows 11), which can be downloaded <a href="https://www.startisback.com/">here for Windows 10</a> and <a href="https://www.startallback.com/">here for Windows 11</a> <strong>(Keep in mind the software is paid, both of them costing 5$)</strong>.</p>
+        <p>After installation follow your theme's instructions in order to apply it's theme to SIB / SAB.  </p>
+        <h3>❓ How do I achieve blank titles on my window title-bar?</h3>
+        <p>Use <a href="https://winaerotweaker.com/">WinAeroTweaker</a> to change titlebar font to blank.</p>
+        <p>You can download the blank font <a href="https://cdn.discordapp.com/attachments/763855843476766740/847301543429799956/BLANK.TTF">here!</a></p>
+        <p><br /></p>
+        <h3>✨ Contributing <a name="contributing"></a></h3>
+        <p>We'd love if you could contribute to this project with a few fixes or additions! Just remember to style the HTML properly (take a look at <code>index.html</code> here for reference) :D</p>
+        <p>If you don't want to do that and would rather wan't to do it in markdown you could also edit the <code>README.md</code> file then use the <a href="https://github.com/kylepollina/embedmd">embedmd</a> tool to get the HTML</p>
+    </main>
+</body>
+</html>
