@@ -1,8 +1,6 @@
-# 🖌️ Windows Ricing
+# 📚 The Windows Ricing Wiki
 
-Are you thinking about those Linux rices on r/unixporn and you want them on Windows, but you can't have them...
-
-Well, welcome to Windows ricing. Here you can find guides, programs, Rainmeter skins, scripts, xoblite configs and everything you need to get started on your Windows ricing journey.
+Welcome to The Windows Ricing Wiki. Here you can find guides, programs, Rainmeter skins, scripts, xoblite configs and everything you need to get started on your Windows ricing journey.
 
 ⚠️ **WARNING**: As a rule of thumb, before making any kind of change for the first time, create a system restore point.
 
