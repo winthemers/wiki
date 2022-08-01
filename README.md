@@ -1,6 +1,6 @@
-# 📚 The Windows Ricing Wiki
+# 📚 The Windows Theming Wiki
 
-Welcome to The Windows Ricing Wiki. Here you can find guides, programs, Rainmeter skins, scripts, xoblite configs and everything you need to get started on your Windows ricing journey.
+Welcome to The Windows Ricing Wiki. Here you can find guides and everything you need to get started on your Windows theming journey.
 
 ⚠️ **WARNING**: As a rule of thumb, before making any kind of change for the first time, create a system restore point.
 
