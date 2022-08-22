@@ -163,3 +163,8 @@ You can download the blank font [here!](https://cdn.discordapp.com/attachments/7
 
 ## ✨ Contributing <a name="contributing"></a>
 We'd love if you could contribute to this project with a few fixes or additions! :D
+
+
+## License
+
+This work is dual-licensed, while the wiki itself (text) being licensed under the CC-BY-4.0 license, the website itself is licensed under the MIT license.
